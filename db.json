@@ -1,0 +1,58 @@
+{
+  "applications" : [
+    {
+      "userId" : "1",
+      "name" : "Foo",
+      "nluKey" : "bar",
+      "apiKey" : "bar_secret"
+    },
+    {
+      "userId": "2",
+      "name" : "Foo2",
+      "nluKey" : "bar",
+      "apiKey" : "bar_secret"
+    },
+    {
+      "userId": "1",
+      "name" : "Foo3",
+      "nluKey" : "bar",
+      "apiKey" : "bar_secret"
+    }
+  ],
+  "users": [
+    {
+      "id" : "1",
+      "email" : "foo@bar",
+      "name" : "David",
+      "lastname" : "Bacano",
+      "address" : "",
+      "country" : "ES",
+      "state" : "MAD",
+      "postalCode" : "28001",
+      "cifNifNie" : "XXX-X",
+      "company" : "foo"
+    },
+    {
+      "id" : "2",
+      "email" : "gog@bar",
+      "name" : "PerroMuchacho",
+      "lastname" : "XXX",
+      "address" : "",
+      "country" : "ES",
+      "state" : "MAD",
+      "postalCode" : "28002",
+      "cifNifNie" : "XXX-X",
+      "company" : "Circo Loco"
+    }
+  ],
+  "billing" : [
+    {
+      "id" : "1",
+      "tier" : "premium"
+    },
+    {
+      "id" : "2",
+      "tier" : "free"
+    }
+  ]
+}
